@@ -11,6 +11,12 @@
 		52E2F170278D2591009BC0E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2F16F278D2591009BC0E0 /* ContentView.swift */; };
 		52E2F172278D2592009BC0E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E2F171278D2592009BC0E0 /* Assets.xcassets */; };
 		52E2F175278D2592009BC0E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E2F174278D2592009BC0E0 /* Preview Assets.xcassets */; };
+		52E2F17C278D2B4A009BC0E0 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2F17B278D2B4A009BC0E0 /* ForgotPasswordView.swift */; };
+		52E2F17E278D335F009BC0E0 /* InputBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2F17D278D335F009BC0E0 /* InputBoxView.swift */; };
+		52E2F180278D347D009BC0E0 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2F17F278D347D009BC0E0 /* ContentModel.swift */; };
+		52E2F186278D380B009BC0E0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2F185278D380B009BC0E0 /* SignUpView.swift */; };
+		52E2F188278D3A67009BC0E0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2F187278D3A67009BC0E0 /* LoginView.swift */; };
+		52E2F18A278D3BE8009BC0E0 /* PasswordBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2F189278D3BE8009BC0E0 /* PasswordBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		52E2F16F278D2591009BC0E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52E2F171278D2592009BC0E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E2F174278D2592009BC0E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52E2F17B278D2B4A009BC0E0 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		52E2F17D278D335F009BC0E0 /* InputBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBoxView.swift; sourceTree = "<group>"; };
+		52E2F17F278D347D009BC0E0 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		52E2F185278D380B009BC0E0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		52E2F187278D3A67009BC0E0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		52E2F189278D3BE8009BC0E0 /* PasswordBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				52E2F16D278D2591009BC0E0 /* EdvoraApp.swift */,
-				52E2F16F278D2591009BC0E0 /* ContentView.swift */,
+				52E2F181278D3487009BC0E0 /* Views */,
+				52E2F182278D34A0009BC0E0 /* VIewModels */,
 				52E2F171278D2592009BC0E0 /* Assets.xcassets */,
 				52E2F173278D2592009BC0E0 /* Preview Content */,
 			);
@@ -65,6 +78,27 @@
 				52E2F174278D2592009BC0E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52E2F181278D3487009BC0E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52E2F16F278D2591009BC0E0 /* ContentView.swift */,
+				52E2F17D278D335F009BC0E0 /* InputBoxView.swift */,
+				52E2F17B278D2B4A009BC0E0 /* ForgotPasswordView.swift */,
+				52E2F185278D380B009BC0E0 /* SignUpView.swift */,
+				52E2F187278D3A67009BC0E0 /* LoginView.swift */,
+				52E2F189278D3BE8009BC0E0 /* PasswordBoxView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52E2F182278D34A0009BC0E0 /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52E2F17F278D347D009BC0E0 /* ContentModel.swift */,
+			);
+			path = VIewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +172,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E2F170278D2591009BC0E0 /* ContentView.swift in Sources */,
+				52E2F188278D3A67009BC0E0 /* LoginView.swift in Sources */,
+				52E2F17E278D335F009BC0E0 /* InputBoxView.swift in Sources */,
+				52E2F180278D347D009BC0E0 /* ContentModel.swift in Sources */,
+				52E2F17C278D2B4A009BC0E0 /* ForgotPasswordView.swift in Sources */,
+				52E2F186278D380B009BC0E0 /* SignUpView.swift in Sources */,
 				52E2F16E278D2591009BC0E0 /* EdvoraApp.swift in Sources */,
+				52E2F18A278D3BE8009BC0E0 /* PasswordBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
