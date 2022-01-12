@@ -91,7 +91,7 @@ struct ContentView: View {
                 }.padding()
                 Spacer()
                 NavigationLink {
-                    LoginView()
+                    LoginView(username: model.username)
                 } label: {
                     ZStack {
                         Rectangle()

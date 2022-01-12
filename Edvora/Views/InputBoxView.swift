@@ -20,6 +20,7 @@ struct InputBoxView: View {
                 .cornerRadius(10)
                         .overlay(RoundedRectangle(cornerRadius: 10)
                                     .stroke(typingType ?  Color.brown : Color.white, lineWidth: 2))
+                        .frame(height: 60)
             
             HStack() {
                 Image(systemName: iconType)

@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct LoginView: View {
+    var username:String?
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if username == nil {
+            ProgressView()
+        }
+        else {
+            Text("Welcome \(username!)!")
+        }
     }
 }
 
