@@ -24,7 +24,8 @@ struct SignUpView: View {
                 }.padding()
                 Spacer()
                 NavigationLink {
-                    EmptyView()
+                    ProgressView()
+                        .navigationBarBackButtonHidden(true)
                         .navigationBarBackButtonHidden(true)
                 } label: {
                     ZStack {
