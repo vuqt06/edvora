@@ -11,7 +11,10 @@ struct SignUpView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Image("edvora")
+                Spacer()
+                Image("edvora2")
+                    .resizable()
+                    .frame(width: 180, height: 70, alignment: .center)
                 Spacer()
                 VStack(spacing: 15) {
                     InputBoxView(boxType: model.username, typingType: model.typingUsername, iconType: "person.fill", placeholderType: "Username")
